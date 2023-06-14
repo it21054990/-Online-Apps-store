@@ -1,0 +1,62 @@
+#form{
+  padding: 40px 0px 40px 40px;
+  width: 65%;
+  background-color: rgba(106, 127, 205, 0.6);
+  margin: 0 auto
+  
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+textarea {
+  width: 75%;
+  height: 150px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  
+}
+
+#submit {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#defaultreviews{
+	border: rbg(240, 240, 240);
+	padding: 40px 0px 40px 40px;
+    width: 65%;
+	margin: 0 auto
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #43c6c9;
+  color: white;
+}
+
+td{
+	background-color: white;
+}

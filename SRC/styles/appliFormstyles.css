@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.style1{
+	width:50%;
+	padding:10px 10px;
+	display:inline block;
+	border:1px solid grey;
+	border-radius:3px;
+}
+
+.mainForm{
+	border:1px solid grey;
+	width:60%;
+	margin:20px auto;
+	padding:20px;
+	background-color:#7393B3;
+}
+
+.formbutton{
+	width: 20%;
+    color: white;
+	background-color: black;
+    padding: 10px 10px;
+    margin: 8px 0;
+	cursor:pointer;	
+}
+
+input[disabled]{
+	width: 20%;
+    color: grey;
+	background-color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+	cursor:pointer;	
+}
+
+
+.bodyborder{
+	border-style: double;
+	border-color: darkblue;
+}
+
+#viewBtn{
+	width:10%;
+	background-color:black;
+	color:white;
+	padding:7px;
+	border:1px solid black;
+	cursor:pointer;
+}
+
+.Viewdiv{
+	padding:10px;
+}
+

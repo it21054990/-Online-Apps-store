@@ -1,0 +1,70 @@
+			#frame1{
+				width:800px;
+				height:750px;
+				border:2px solid black;
+				padding:2px		
+			}
+			#frame{
+				width:400px;
+				height:400px;
+				border:2px solid black;
+				padding:2px;
+				align
+			}
+			.buttons{
+				padding: 2px 5px;
+				width: 150px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#confirm{
+				background-color: black;
+				color: white;
+				padding: 2px 5px;
+				width: 100px;
+				height: 30px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#facebook{
+				background-color:#C0C0CC;
+				color: white;
+				padding: 2px;
+				width: 200px;
+				height: 30px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#google{
+				background-color: blue;
+				color: white;
+				padding: 2px;
+				width: 200px;
+				height: 30px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			.search{
+				color: white;
+				padding: 2px 5px;
+				width: 150px;
+				display: inline-block;
+			}
+			
+			#footerlinks{
+				word-spacing: 20px;
+			}
+			.text{
+				width:300px;
+				height:30px;
+				}
+			.form{
+				padding:20px;
+				}
+			#footerlinks{
+				word-spacing: 20px;
+			}

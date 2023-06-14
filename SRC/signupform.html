@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign up</title>
+<link rel="stylesheet" href="styles/mainstyle.css">
+<link rel="stylesheet" href="styles/formstyle.css">
+<script src="js/java.js"> </script>
+</head>
+<body>
+<div class="headerfooterborder">
+<img src="images/appnet logo.png" width="85px" height="80px" align="left">
+<h1>AppNet</h1><br><br>
+</div>
+
+
+<hr>
+<center>
+<h1> Create an account! </h1>
+<a href="login.php">Already have an account? Log in here!</a></br></br>
+</center>
+
+<center>
+<div class="container">
+<form action="signupsubmit.php" onsubmit="return checkPassword()" method="POST" enctype="multipart/form-data">
+
+<div class="btn">
+<!-- https://www.webtrickshome.com/forum/how-to-display-uploaded-image-in-html-using-javascript to display uploaded image in form -->
+<p><input type="file"  accept="image/jpeg" name="image" id="file" onchange="loadFile(event)" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;">Upload Profile Picture</label></p>
+<p><img id="output" width="200" /></p>
+</div>
+
+
+<label class="required">
+Enter First Name: </br> </label>
+<input type= "text" name="firstname" value="First Name" required></br></br>
+
+<label class="required">
+Enter Last Name: </br> </label>
+<input type= "text" name="lname" value="Last Name" required></br></br>
+
+<label class="required">
+Enter Date of Birth: </br> </label>
+<input type="date" name="day" required> </br></br>
+
+<label class="required">
+Enter Email Address: </br> </label>
+<input type="email" name="email" pattern= "[a-z0-9.%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="abc@gmail.com" required></br></br>
+
+<label for="psw" class="required">
+Enter Password: </br> </label>
+
+<input type = "password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase, one lowercase letter, and be at least 8 or more characters long" required ></br></br>
+
+<label class="required">
+Confirm Password: </br> </label>
+<input type = "password" id="cnfrmpwd" required></br></br>
+
+
+<input type= "checkbox" id="checkbox" onclick="enableButton()"></br>
+I agree to the Terms and Conditions and the Privacy Policy </br></br>
+<input type="submit" class="btn" name="submitBtn" id="submitBtn" value="Sign Up!" disabled>
+
+
+</form>
+</div>
+</center>
+
+
+<hr>
+<div class="headerfooterborder">
+<img src="images/appnet logo.png" width="60px" height="60px" align="left">
+<h2>AppNet</h2><br><br>
+<h3 align="center">Company</h3>
+<p id="footerlinks" align="center">
+<a href = "aboutus.html">About_us</a>
+<a href = "Careers.html">Careers</a>
+<a href = "legal information.html">Legal_polices</a>
+</p>
+<div align="right">
+<img src="images/whatsapp.png" width="30px" height="30px">
+<a href="https://www.facebook.com/"><img src="images/facebook.png" width="30px" height="30px"></a>
+<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="images/twitter.png" width="30px" height="30px"></a>
+<a href="https://www.instagram.com/accounts/login/"><img src="images/insta.png" width="30px" height="30px"></a>
+</div>
+</div>
+</body>
+</html>

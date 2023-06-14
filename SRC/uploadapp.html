@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload App</title>
+<link rel="stylesheet" href="styles/mainstyle.css">
+<link rel="stylesheet" href="styles/formstyle.css">
+<script src="js/java.js"> </script>
+</head>
+<body>
+<div class="headerfooterborder">
+<img src="images/appnet logo.png" width="85px" height="80px" align="left">
+<h1>AppNet</h1><br><br>
+</div>
+
+<hr>
+<center>
+<h1> Upload an app! </h1>
+
+</center>
+<center>
+<div class="container">
+<form method="POST" action="upload.php" enctype="multipart/form-data">
+<label class="required">
+Enter First Name: </br> </label>
+<input type= "text" name="firstname" required></br></br>
+
+<label class="required">
+Enter Last Name: </br> </label>
+<input type= "text" name="lname" required></br></br>
+
+<label class="required">
+Enter e-mail address: </br> </br> </label>
+<input type="email" name="email" pattern= "[a-z0-9.%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="abc@gmail.com" required></br></br>
+
+<label class="required">
+Enter name of app: </br> </label>
+<input type= "text" name="appname" required></br></br>
+
+<label for="category" class="required">Choose app category:</label>
+
+<select name="category" id="category">
+  <option value="music">Music</option>
+  <option value="education">Education</option>
+  <option value="finance">Finance</option>
+  <option value="games">Games</option>
+  <option value="lifestyle">Lifestyle</option>
+</select> </br></br>
+
+<label class="required">
+Enter app description: </br> </label>
+<textarea rows="8" col="50" name="description" required> </textarea></br></br>
+
+<label class="required">
+Select app file to upload: </label>
+<input type="file" name="appfile" id="appfile" required> </br></br>
+
+
+<input type= "checkbox" id="checkbox" onclick="enableButton()"></br>
+I agree to the Terms and Conditions and the Privacy Policy </br></br>
+<input type= "checkbox" id="checkbox1" name="checkbox1" value="1" checked></br>
+I am above 18 years of age </br></br>
+<input type="submit" class="btn" id="submitBtn" name="submitBtn" value="Submit" disabled>
+
+</div>
+</form>
+</center>
+
+
+<hr>
+<div class="headerfooterborder">
+<img src="images/appnet logo.png" width="60px" height="60px" align="left">
+<h2>AppNet</h2><br><br>
+<h3 align="center">Company</h3>
+<p id="footerlinks" align="center">
+<a href = "aboutus.html">About_us</a>
+<a href = "Careers.html">Careers</a>
+<a href = "legal information.html">Legal_polices</a>
+</p>
+<div align="right">
+<img src="images/whatsapp.png" width="30px" height="30px">
+<a href="https://www.facebook.com/"><img src="images/facebook.png" width="30px" height="30px"></a>
+<a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="images/twitter.png" width="30px" height="30px"></a>
+<a href="https://www.instagram.com/accounts/login/"><img src="images/insta.png" width="30px" height="30px"></a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+			#frame{
+				width:500px;
+				border:2px solid black;
+				padding:2px;
+			}
+			#confirm{
+				background-color: black;
+				color: white;
+				padding: 2px 5px;
+				width: 75px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#cancel{
+				background-color: white;
+				border:1px solid black;
+				color: black;
+				padding: 2px 5px;
+				width: 75px;
+				text-align: center;
+				text-decoration: none;
+				
+				display: inline-block;
+			}
+			.text{
+				width:450px;
+				}
+			.text1{
+				width:200px
+				}
+			.form{
+				padding:20px;
+				}
